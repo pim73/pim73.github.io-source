@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Strona główna</title>
+    <link>https://pim73.github.io/posts/</link>
+    <description>Recent content in Posts on Strona główna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-PL</language>
+    <lastBuildDate>Fri, 16 Apr 2021 07:40:06 +0200</lastBuildDate><atom:link href="https://pim73.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamic Blocks</title>
+      <link>https://pim73.github.io/posts/dynamic-blocks/</link>
+      <pubDate>Fri, 16 Apr 2021 07:40:06 +0200</pubDate>
+      
+      <guid>https://pim73.github.io/posts/dynamic-blocks/</guid>
+      <description>Problem Zamierzam stworzony w orgmode outline przekrztałcić w tabelę. Dotychczas bez problemu korzystałem z column view. Taka funkcja okazywała się przydatna, gdyż w przejrzysty sposób prezentuje te dane, które chcę wyeksponować. Niestety nie ma możliwości wyeksportowania takiego widoku.
+Rozwiązanie problemu Rozwiązaniem okazuje się istniejąca funkcja Dynamic Blocks.
+Wcześniej zdefiniować Dynamic Blocks w pliku .emacs
+(org-dynamic-block-define &amp;#34;columnview&amp;#34; &amp;#39;org-insert-columns-dblock) (org-dynamic-block-define &amp;#34;aggregate&amp;#34; &amp;#39;org-insert-dblock:aggregate) Teraz wystarczy umieścić kursor na nagłówku, z którego punktów chcemy utworzyć tabelę i wywołać funkcję za pomocą skrótu:</description>
+    </item>
+    
+    <item>
+      <title>Jak sobie radzę z Agendą OrgMode, nie mając pod ręką komputera?</title>
+      <link>https://pim73.github.io/posts/emacs/</link>
+      <pubDate>Wed, 14 Apr 2021 10:08:03 +0200</pubDate>
+      
+      <guid>https://pim73.github.io/posts/emacs/</guid>
+      <description>Jednym z moich odkryć ostatnich lat jest planowanie w plikach tekstowych. Doskonale nadaje się do tego Emacs oraz OrgMode. Nie będę skupiać się na samym systemie, bo łatwo znaleźć na ten temat mnóstwo informacji w internecie.
+Ponieważ jednak dzisiaj w tak dużym stopniu jesteśmy uzależnieni od korzystania z urządzeń mobilnych, zmuszony byłem do poszukiwania aplikacji, która mogłaby dać mi dostęp do moich plików .org oraz agendy.
+O ile dostęp do samych plików nie stanowi większego problemu, bo to zwykłe pliki tekstowe, to korzystanie z agendy, to już problem.</description>
+    </item>
+    
+  </channel>
+</rss>

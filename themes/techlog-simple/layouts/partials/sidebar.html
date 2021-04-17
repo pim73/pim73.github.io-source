@@ -1,0 +1,35 @@
+<div class="sidebar">
+  {{ with ( .Site.GetPage "page" "about" ) }}
+  <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+  {{ .Summary }}
+  {{ end }}
+  {{ with ( .Site.GetPage "page" "linki" ) }}
+  <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+  {{ end }}
+ 
+  <hr />
+  <h4>Spis treści</h4>
+  {{ .TableOfContents }}
+  <hr />
+  <h4><a href="{{ "/categories/" | relLangURL }}">Tematy</a></h4>
+  {{ with .Params.Categories }}
+  <div>
+    <ul>
+      {{ range . }}
+      <li>
+        <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+  <hr />
+  <h4><a href="{{ "/tags/" | relLangURL }}">Tagi</a></h4>
+  {{ with .Params.Tags }}
+  <div>
+    {{ range . }}
+    <a class="badge badge-pill badge-secondary" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>

@@ -1,0 +1,20 @@
+version: "3.8"
+services:
+  website:
+    build:
+      context: Dockerfile.d/hugo-static-website
+      args:
+        UID: ${UID:-0}
+        GID: ${GID:-0}
+    command: >
+      hugo server
+      --baseURL http://$BIND_IP_ADDR:1313
+      --bind 0.0.0.0
+      --buildDrafts
+      --themesDir="../.."
+    ports:
+      - "${BIND_IP_ADDR:-127.0.0.1}:1313:1313"
+    user: "${UID:-0}:${GID:-0}"
+    volumes:
+      - ../:/techlog-simple
+    working_dir: /techlog-simple/exampleSite

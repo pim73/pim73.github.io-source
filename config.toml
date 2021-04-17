@@ -1,0 +1,37 @@
+baseURL = "https://pim73.github.io"
+canonifyURLs = true
+# defaultContentLanguage = "en"
+# defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = true
+enableEmoji = true
+enableGitInfo = false
+enableRobotsTXT = true
+# googleAnalytics = "UA-00000000-1"
+hasCJKLanguage = true
+languageCode = "pl-PL"
+pygmentsCodeFences = true
+pygmentsStyle = "friendly"
+title = "Strona główna"
+theme = "techlog-simple"
+
+# [languages]
+# [languages.en]
+# languageName = "English"
+# weight = 1
+# 
+# [languages.ja]
+# languageName = "日本語"
+# weight = 10
+
+[params]
+description = "Strona prywatna o programowaniu i nie tylko..."
+
+[params.sns]
+# facebook = ""
+github = "pim73"
+twitter = "pima73"
+
+[taxonomies]
+author = "authors"
+category = "categories"
+tag = "tags"
