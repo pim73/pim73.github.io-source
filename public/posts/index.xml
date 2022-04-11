@@ -6,7 +6,42 @@
     <description>Recent content in Posts on Strona główna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
-    <lastBuildDate>Fri, 16 Apr 2021 07:40:06 +0200</lastBuildDate><atom:link href="https://pim73.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 May 2021 10:41:21 +0200</lastBuildDate><atom:link href="https://pim73.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linode i Organice</title>
+      <link>https://pim73.github.io/posts/linode/</link>
+      <pubDate>Thu, 27 May 2021 10:41:21 +0200</pubDate>
+      
+      <guid>https://pim73.github.io/posts/linode/</guid>
+      <description>W nawiązaniu do mojego wpisu z 2021-04-14 dotyczącego dostępu do mojej Org Agendy znalazłem dwa świetne rozwiązania, którymi chcę się podzielić.
+Organice Organice to aplikacja webowa, z możliwością zainstalowania jako aplikację PWA (Progressive Web Application)
+Należy zalogować się za pomocą konta Dropbox lub Google Drive i udostępnić pliki org w odpowiednim folderze.
+Zalety:
+ można różne pliki dodać do agendy Dostęp w telefonie oraz tablecie rozwiązanie całkowicie darmowe dość szybkie oswojenie się z tym rozwiązaniem  Wady:</description>
+    </item>
+    
+    <item>
+      <title>Doom Emacs</title>
+      <link>https://pim73.github.io/posts/doom/</link>
+      <pubDate>Sat, 15 May 2021 08:28:58 +0200</pubDate>
+      
+      <guid>https://pim73.github.io/posts/doom/</guid>
+      <description>Ostatnio postanowiłem trochę poeksperymentować z Doom Emacs. Szczerze powiedziawszy próbowałem tego już wcześniej, ale wówczas zupełnie mi nie przypadł do gustu. Wydawał się zbyt złożony.
+Kiedy jednak nabyłem większego doświadczenia w korzystaniu z VIM, a nawet w moim GNU Emacs zainstalowałem evil mode, który wykorzystuje skróty klawiaturowe używane w VIM, okazało się, że Doom Emacs jest bardzo przyjazny. To była po prostu kwestia przyzwyczajenia.
+Od chwili zainstalowania, ta wersja Emacs jest wyposażona w wiele świetnych i sprawdzonych przez użytkowników pakietów.</description>
+    </item>
+    
+    <item>
+      <title>Świat jest niezdolny do rozwiązania problemów</title>
+      <link>https://pim73.github.io/posts/mat25/</link>
+      <pubDate>Sun, 18 Apr 2021 09:22:29 +0200</pubDate>
+      
+      <guid>https://pim73.github.io/posts/mat25/</guid>
+      <description>Zwrócono mi uwagę na ciekawy cytat zamieszczony w artykule na stronie jw.org. Poniżej wraz ze źródłem, które zainspirowało nieznanego autora zacytowanej w artykule wypowiedzi:
+Mateusza 25:35-36  Bo byłem głodny, a daliście mi jeść. Byłem spragniony, a daliście mi pić. Byłem obcy, a przyjęliście mnie gościnnie. Byłem nagi, a ubraliście mnie. Byłem chory, a zaopiekowaliście się mną. Byłem w więzieniu, a odwiedziliście mnie.
+ Nieznany autor  „Byłem głodny, a wy utworzyliście komitet, by rozpatrzyć kwestię głodu.</description>
+    </item>
+    
     <item>
       <title>Dynamic Blocks</title>
       <link>https://pim73.github.io/posts/dynamic-blocks/</link>

@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="https://pim73.github.io/common/site.css">
     
     
-    <title>Strona główna :: Categories</title>
-    <meta property="og:title"       content="Strona główna :: Categories" />
+    <title>Strona główna :: Linode i Organice</title>
+    <meta property="og:title"       content="Strona główna :: Linode i Organice" />
     <meta property="og:type"        content="article" />
     
-    <meta property="og:url"         content="https://pim73.github.io/categories/" />
+    <meta property="og:url"         content="https://pim73.github.io/posts/linode/" />
     
       
       <meta property="og:description" content="Strona prywatna o programowaniu i nie tylko..." />
@@ -65,19 +65,27 @@
         <ul class="navbar-nav mr-auto">
           
           
+          
+          <li class="nav-item">
+            <span class="nav-link disabled">Data utworzenia: 2021-05-27</span>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link disabled">Aktualizacja: 2021-05-27</span>
+          </li>
+          
         </ul>
         
         <div class="navbar-nav ml-auto">
           <span class="navbar-text mr-1">podziel się tą stroną</span>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="https://twitter.com/share?url=https%3a%2f%2fpim73.github.io%2fcategories%2f&text=Categories" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+              <a class="nav-link" href="https://twitter.com/share?url=https%3a%2f%2fpim73.github.io%2fposts%2flinode%2f&text=Linode%20i%20Organice" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fpim73.github.io%2fcategories%2f" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></a>
+              <a class="nav-link" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fpim73.github.io%2fposts%2flinode%2f" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fpim73.github.io%2fcategories%2f&title=Categories" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></a>
+              <a class="nav-link" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fpim73.github.io%2fposts%2flinode%2f&title=Linode%20i%20Organice" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></a>
             </li>
     
           </ul>
@@ -89,23 +97,42 @@
 
 <div class="row">
   <div class="col-lg-9">
-    
-    
-    <a class="m-1 btn btn-lg btn-secondary badge-pill" href="https://pim73.github.io/categories/kodowanie">
-      kodowanie
-      <span class="badge badge-light">1</span>
-    </a>
-    
-    <a class="m-1 btn btn-lg btn-secondary badge-pill" href="https://pim73.github.io/categories/narz%C4%99dzia">
-      narzędzia
-      <span class="badge badge-light">2</span>
-    </a>
-    
-    <a class="m-1 btn btn-lg btn-secondary badge-pill" href="https://pim73.github.io/categories/planowanie">
-      planowanie
-      <span class="badge badge-light">1</span>
-    </a>
-    
+    <article>
+      <div class="row">
+        <h1>Linode i Organice</h1>
+      </div>
+      <p>W nawiązaniu do mojego wpisu z <a href="https://pim73.github.io/posts/emacs/">2021-04-14</a> dotyczącego dostępu do mojej Org Agendy znalazłem dwa świetne rozwiązania, którymi chcę się podzielić.</p>
+<h2 id="organice">Organice</h2>
+<p><a href="https://organice.200ok.ch">Organice</a> to aplikacja webowa, z możliwością zainstalowania jako aplikację PWA (Progressive Web Application)</p>
+<p>Należy zalogować się za pomocą konta Dropbox lub Google Drive i udostępnić pliki <code>org</code> w odpowiednim folderze.</p>
+<p><strong>Zalety</strong>:</p>
+<ul>
+<li>można różne pliki dodać do agendy</li>
+<li>Dostęp w telefonie oraz tablecie</li>
+<li>rozwiązanie całkowicie darmowe</li>
+<li>dość szybkie oswojenie się z tym rozwiązaniem</li>
+</ul>
+<p><strong>Wady</strong>:</p>
+<ul>
+<li>niezbyt przejrzysty sposób edytowania plików, ale to chyba w ogóle trudne, gdy korzysta się z klawiatury ekranowej w telefonie</li>
+<li>do wykorzystania raczej doraźnie</li>
+</ul>
+<h2 id="linodelinodecom-lub-jakiś-inny-vps"><a href="linode.com">Linode</a> lub jakiś inny VPS</h2>
+<p>W iPadzie zainstalowałem aplikację <a href="https://blink.sh">Blink</a> i za pomocą <code>SSH</code> łączę się z moim Ubuntu na serwerze, a tam korzystam swobodnie z emacsa, orgmode i wszystkich terminalowych aplikacji, do których się przyzwyczaiłem.</p>
+<p>Aby połączyć się z plikami z mojego komputera, wykorzystuję terminalową wersję <code>Dropboxa</code>. Instrukcje, w jaki sposób można zainstalować dropbox za pomocą terminala na serwerze można bez trudu znaleźć w sieci. Synchronizacja działa bezbłędnie, więc właściwie nie ma to w tej chwili dla mnie znaczenia, czy edytuje moje pliki <code>.org</code> na moim komputerze czy raczej korzystam z linuxa za pośrednictwem <code>Blink</code> na iPadzie.</p>
+<p><strong>Zalety</strong></p>
+<ul>
+<li>korzystam z pełnowartościowego Emacsa i dodatkowo mam dostęp do wielu innych aplikacji dostępnych na terminal linuxa</li>
+</ul>
+<p><strong>Wady</strong></p>
+<ul>
+<li>głównie koszty. Za <code>Blink</code> trzeba zapłacić jednorazowo ok 20 USD oraz za VPS 5 USD miesięcznie</li>
+<li>trudność. Trzeba już mieć choćby niewielkie doświadczenie i wiedzę o linux, serwerach, ssh</li>
+</ul>
+<h2 id="podsumowanie">Podsumowanie</h2>
+<p>Na razie to najdoskonalsze rozwiązanie, jakie znalazłem. Być może istnieją jakieś prostsze lub tańsze, ale na razie wykorzystuję wspomniany w poście sposób.</p>
+
+    </article>
   </div>
   <div class="col-lg-3">
     <div class="sidebar">
@@ -119,12 +146,34 @@
  
   <hr />
   <h4>Spis treści</h4>
-  
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#organice">Organice</a></li>
+    <li><a href="#linodelinodecom-lub-jakiś-inny-vps"><a href="linode.com">Linode</a> lub jakiś inny VPS</a></li>
+    <li><a href="#podsumowanie">Podsumowanie</a></li>
+  </ul>
+</nav>
   <hr />
   <h4><a href="https://pim73.github.io/categories/">Tematy</a></h4>
   
+  <div>
+    <ul>
+      
+      <li>
+        <a href="https://pim73.github.io/categories/narz%C4%99dzia/">narzędzia</a>
+      </li>
+      
+    </ul>
+  </div>
+  
   <hr />
   <h4><a href="https://pim73.github.io/tags/">Tagi</a></h4>
+  
+  <div>
+    
+    <a class="badge badge-pill badge-secondary" href="https://pim73.github.io/tags/emacs/">emacs</a>
+    
+  </div>
   
 </div>
 
